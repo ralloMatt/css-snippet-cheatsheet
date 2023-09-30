@@ -4,23 +4,24 @@
     padding: 10px;
 }
 
-
-
-.linear-gradient-background{
-    background-image: linear-gradient(red, blue);
+.linear-gradient-background {
+    background-image: linear-gradient(yellow, black);
 }
 
 .row { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     border: 5px solid black;
-    padding: 10px;
+    padding: 20px;
 }
 
-
+h1, h3 {
+    text-align: center;
+}
